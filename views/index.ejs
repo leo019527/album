@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>智能相册</title>
+    <!--<link rel='stylesheet' href='/stylesheets/style.css' />-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="text/javascript">
+        function F_Open_dialog()
+        {
+            document.getElementById("btn_file").click();
+        }
+        function uploadfile() {
+            document.getElementById("upload").submit();
+        }
+    </script>
+    <style>
+        ul {
+            list-style-type: none; /*移除列表前的小标志*/
+            padding: 0;
+            margin-bottom: 95%; /*边距*/
+            width: 80%; /*导航栏宽度*/
+            background-color: #f1f1f1;
+            border: 1px solid #bbb; /*导航栏边框*/
+        }
+
+        li a {
+            display: block; /*将a变成块状*/
+            color: #000;
+            padding: 12px 14px;
+            text-decoration: none;
+        }
+
+        li {
+            text-align: center; /*字体居中*/
+            border-bottom: 1px solid #bbb; /*块间的下划线边框*/
+            font-family: "楷体", "仿宋";
+            font-size: 21px;
+        }
+
+        li:last-child {
+            border-bottom: none; /*导航栏最后一个块无需下划线*/
+        }
+
+        li a.active {
+            background-color: #09F;
+            color: white;
+        }
+
+        /*鼠标移动到选项上改变颜色*/
+        li a:hover:not(.active) {
+            background-color: #09F;
+            color: white;
+        }
+
+        h3 {
+            color: #999;
+            text-shadow: 0.5px 0.5px #666;
+            text-align: center;
+            font-family: "楷体", "仿宋";
+        }
+
+        h4 {
+            color: #999;
+            text-shadow: 0.5px 0.5px #666;
+            text-align: center;
+        }
+
+        div.img {
+            border: 1px solid #CCC;
+        }
+
+        div.img:hover {
+            border: 1px solid #777;
+        }
+
+        div.img img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            font-family: "楷体", "仿宋";
+            font-size: 24px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+    </style>
+</head>
+<body background="/images/mainBackground.jpg">
+<!--将整个界面分为3*1的表格：logo、展示区、版权声明-->
+<table width="100%" height="100%" align="center">
+    <tr>
+        <td><img src="/images/logo2.png" width="980" height="106" align="middle"/></td>
+    </tr>
+
+    <!--将第二行单元格分为2列：导航栏和展示区-->
+    <tr>
+        <td>
+            <table width="100%" align="center">
+                <tr>
+                    <td width="15%">
+                        <table width="100%">
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <strong>
+                                            <li style="padding:10px 0px;
+                          color:#000;
+                          border-bottom:1px solid #bbb;
+                          background-color:#CCC;
+                          text-align:center;
+                          font-family:'楷体', '仿宋';
+                          font-size:18px">导航栏</li>
+                                            <li><a class="active" href="/">本地相册</a></li>
+                                            <li><a href="/AIphoto">智能相册</a></li>
+                                            <li><a href="/AIname">人物相册</a></li>
+                                        </strong>
+                                    </ul>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><p>&nbsp;</p>
+                                    <p>&nbsp;</p>
+                                    <p>&nbsp;</p>
+                                    <p>&nbsp;</p>
+                                    <p>&nbsp;</p>
+                                    <p>&nbsp;</p></td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td width="85%">
+                        <table width="97%" border="1">
+                            <tr style="background-color:#09F;">
+                                <td height="43"><img src="/images/local.png" width="323" height="36"
+                                                     style="margin-left:40%"/></td>
+                            </tr>
+
+                            <tr height="97%">
+                                <td>
+                                    <div class="responsive" style="margin:30px">
+                                        <div class="img">
+                                            <form id="upload" enctype="multipart/form-data" method="post" action="/fileupload">
+                                                <input type="file" multiple="multiple" name="upload" onchange="uploadfile()" id="btn_file" style="display: none"/>
+                                                <a onclick="F_Open_dialog()"><img src="/images/button1.png" alt="button1" width="776" height="659"></a>
+                                                <!--<input type="submit" value="submit">-->
+                                            </form>
+                                        </div>
+                                    </div>
+
+
+                                    <%for(var a in pictures){%>
+                                        <div class="responsive" style="margin:30px">
+                                            <div class="img">
+                                                <a target="_blank" href="<%=pictures[a]%>">
+                                                    <img src="<%=pictures[a]%>" alt="<%=a%>" width="1200" height="800">
+                                                </a>
+                                                <div class="desc"><%=a%></div>
+                                            </div>
+                                        </div>
+                                    <%}%>
+
+                                    <!--<div class="responsive" style="margin:30px">-->
+                                        <!--<div class="img">-->
+                                            <!--<a target="_blank" href="index-2.html">-->
+                                                <!--<img src="/images/photo2.jpg" alt="photo2" width="600" height="402">-->
+                                            <!--</a>-->
+                                            <!--<div class="desc">旅行</div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+
+                                    <!--<div class="responsive" style="margin:30px">-->
+                                        <!--<div class="img">-->
+                                            <!--<a target="_blank" href="index-3.html">-->
+                                                <!--<img src="/images/photo3.jpg" alt="photo3" width="1000" height="667">-->
+                                            <!--</a>-->
+                                            <!--<div class="desc">明星</div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+
+                                    <div class="clearfix"></div>
+
+                                    <div style="padding:6px;"></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+
+    <tr>
+        <td>
+            <h3>虚拟化与云计算第十二组课程设计</h3>
+            <h4>2018年6月</h4>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
