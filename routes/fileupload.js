@@ -3,6 +3,7 @@ var router = express.Router();
 var fs = require('fs');
 var multiparty = require('multiparty');
 var mysql = require('mysql');
+var process = require('child_process');
 var connection = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
@@ -23,9 +24,15 @@ router.all('/', function(req, res, next) {
             // console.log(files.upload[0].path);
             var Mfile = files.upload[0];
             connection.connect();
-            //TODO:打上标签
-            connection.query("INSERT INTO picture VALUES('"+Mfile.originalFilename+"','123456','"+Mfile.path.replace(/\\/g,"/").replace("public/","")+"','aaa,bb','person 1')",function (error, results, fields) {
+            connection.query("INSERT INTO picture VALUES('"+Mfile.originalFilename+"','123456','"+Mfile.path.replace(/\\/g,"/").replace("public/","")+"','','')",function (error, results, fields) {
                 if (error) throw error;
+                else{
+                    process.exec('python ~/album/image-python-sdk-v2.0/sample.py'+Mfile.originalFilename+' ~/album/public/'+Mfile.path.replace(/\\/g,"/").replace("public/",""),function (error, stdout, stderr) {
+                        if (error !== null) {
+                            console.log('exec error: ' + error);
+                        }
+                    });
+                }
             });
             connection.query('SELECT picturename,pictureid FROM picture',function (err, resuts) {
                 if(err){
