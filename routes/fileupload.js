@@ -27,7 +27,7 @@ router.all('/', function(req, res, next) {
             connection.query("INSERT INTO picture VALUES('"+Mfile.originalFilename+"','123456','"+Mfile.path.replace(/\\/g,"/").replace("public/","")+"','','')",function (error, results, fields) {
                 if (error) throw error;
                 else{
-                    process.exec('python ~/album/image-python-sdk-v2.0/sample.py'+Mfile.originalFilename+' ~/album/public/'+Mfile.path.replace(/\\/g,"/").replace("public/",""),function (error, stdout, stderr) {
+                    process.exec('python I:/album/image-python-sdk-v2.0/sample.py "'+Mfile.originalFilename+'"  E:/Documents/学习/私人文件/大三/大三下/虚拟化与云计算/album/public/'+Mfile.path.replace(/\\/g,"/").replace("public/",""),function (error, stdout, stderr) {
                         if (error !== null) {
                             console.log('exec error: ' + error);
                         }

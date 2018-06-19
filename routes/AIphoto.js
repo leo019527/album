@@ -31,6 +31,7 @@ router.all('/',function (req, res, next) {
             (function iterator(index){
                 console.log(index);
                 if (index === keys.length) {
+                    console.log(data);
                     res.render('AIphoto',{'lables':data});
                     return;
                 }
