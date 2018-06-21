@@ -1,0 +1,26 @@
+智能鉴黄
+{u'message': u'sign expired', u'code': 9, 'httpcode': 401}
+智能鉴黄
+{u'result_list': [{u'message': u'success', u'code': 0, u'data': {u'confidence': 2.018, u'hot_score': 6.469, u'porn_score': 0.0, u'result': 0, u'normal_score': 93.531, u'forbid_status': 0}, u'filename': u'/home/ubuntu/album/public/photos/9jK8z04h02ftQQitD3Dj4y-8.jpg'}], 'httpcode': 200}
+图片标签
+[{u'tag_name': u'\u5927\u5934\u7167', u'tag_confidence': 16}, {u'tag_name': u'\u6d77\u62a5', u'tag_confidence': 12}, {u'tag_name': u'\u7537\u5b69', u'tag_confidence': 63}]
+	update picture.label success
+人脸识别
+indect face
+insert names success
+update picture.namelabel success
+智能鉴黄
+{u'result_list': [{u'message': u'success', u'code': 0, u'data': {u'confidence': 6.668, u'hot_score': 21.065, u'porn_score': 0.0, u'result': 0, u'normal_score': 78.935, u'forbid_status': 0}, u'filename': u'/home/ubuntu/album/public/photos/MuClaRw_uzIgiWsmY-GY9Vds.png'}], 'httpcode': 200}
+图片标签
+[{u'tag_name': u'\u6d77\u62a5', u'tag_confidence': 19}, {u'tag_name': u'\u7537\u5b69', u'tag_confidence': 63}]
+	update picture.label success
+人脸识别
+indect face
+		get people1
+update namelabel success
+智能鉴黄
+{u'message': u'sign expired', u'code': 9, 'httpcode': 401}
+智能鉴黄
+{u'result_list': [{u'message': u'too large file,max is 1 MB.', u'code': 20, u'filename': u'/home/ubuntu/album/public/photos/BSbrju3EqnHCDOFHVM3are9I.jpg'}], 'httpcode': 400}
+智能鉴黄
+{'message': "('Connection aborted.', timeout('timed out',))", 'code': -2, 'data': {}, 'httpcode': 0}

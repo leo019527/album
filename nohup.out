@@ -1,0 +1,330 @@
+
+> album@0.0.0 start /home/ubuntu/album
+> node ./bin/www
+
+
+> album@0.0.0 start /home/ubuntu/album
+> node ./bin/www
+
+{ 'timg.jpg': 'photos/XilbZx-aPzMwNMSEME5K8KNb.jpg',
+  'timg2.jpg': 'photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg',
+  'clearlove.jpeg': 'photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg',
+  'c2.jpg': 'photos/OQHypJQ3AJYQt4nQfFw3wG1T.jpg',
+  'player.png': 'photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png',
+  'face.jpg': 'photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg' }
+[0mGET / [36m304 [0m27.574 ms - -[0m
+[0mGET /images/logo2.png [32m200 [0m3.593 ms - 19162[0m
+[0mGET /images/local.png [32m200 [0m0.594 ms - 7482[0m
+[0mGET /images/button1.png [32m200 [0m0.515 ms - 6524[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [32m200 [0m0.432 ms - 25223[0m
+[0mGET /photos/OQHypJQ3AJYQt4nQfFw3wG1T.jpg [32m200 [0m0.495 ms - 22595[0m
+[0mGET /images/mainBackground.jpg [32m200 [0m0.400 ms - 56290[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [32m200 [0m0.488 ms - 127105[0m
+[0mGET /photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg [32m200 [0m0.658 ms - 57244[0m
+[0mGET /photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg [32m200 [0m0.350 ms - 51942[0m
+[0mGET /photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png [36m304 [0m1.021 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m2.807 ms - 883[0m
+[0mGET /favicon.ico [33m404 [0m3.566 ms - 883[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m0.442 ms - -[0m
+{ 'timg.jpg': 'photos/XilbZx-aPzMwNMSEME5K8KNb.jpg',
+  'timg2.jpg': 'photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg',
+  'clearlove.jpeg': 'photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg',
+  'c2.jpg': 'photos/OQHypJQ3AJYQt4nQfFw3wG1T.jpg',
+  'player.png': 'photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png',
+  'face.jpg': 'photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg',
+  'DSCF1420.jpg': 'photos/cNh7NQbmb-PU-hqB8z4-6B5A.jpg' }
+[0mPOST /fileupload [32m200 [0m3701.494 ms - 12545[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m1.135 ms - -[0m
+[0mGET /images/logo2.png [32m200 [0m1.491 ms - 19162[0m
+[0mGET /images/local.png [32m200 [0m0.594 ms - 7482[0m
+[0mGET /images/button1.png [32m200 [0m0.804 ms - 6524[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m0.303 ms - -[0m
+[0mGET /photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg [36m304 [0m0.321 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.322 ms - -[0m
+[0mGET /photos/OQHypJQ3AJYQt4nQfFw3wG1T.jpg [36m304 [0m0.346 ms - -[0m
+[0mGET /photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png [36m304 [0m0.445 ms - -[0m
+[0mGET /photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg [32m200 [0m0.656 ms - 51942[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m2.311 ms - -[0m
+[0mGET /photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg [36m304 [0m2.070 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m2.375 ms - -[0m
+[0mGET /images/button1.png [36m304 [0m0.330 ms - -[0m
+{ 'timg.jpg': 'photos/XilbZx-aPzMwNMSEME5K8KNb.jpg',
+  'timg2.jpg': 'photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg',
+  'clearlove.jpeg': 'photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg',
+  'c2.jpg': 'photos/OQHypJQ3AJYQt4nQfFw3wG1T.jpg',
+  'player.png': 'photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png',
+  'face.jpg': 'photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg',
+  'DSCF1420.jpg': 'photos/cNh7NQbmb-PU-hqB8z4-6B5A.jpg' }
+[0mGET / [32m200 [0m6.512 ms - 12545[0m
+[0mGET /images/logo2.png [36m304 [0m0.258 ms - -[0m
+[0mGET /images/local.png [36m304 [0m0.221 ms - -[0m
+[0mGET /photos/OQHypJQ3AJYQt4nQfFw3wG1T.jpg [36m304 [0m0.418 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.289 ms - -[0m
+[0mGET /photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg [36m304 [0m0.588 ms - -[0m
+[0mGET /photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png [36m304 [0m0.552 ms - -[0m
+[0mGET /AIphoto [32m200 [0m6.868 ms - 7060[0m
+[0mGET /photos/cNh7NQbmb-PU-hqB8z4-6B5A.jpg [32m200 [0m0.727 ms - 4209278[0m
+[0mGET /images/intelligent.png [36m304 [0m0.434 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.297 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.229 ms - -[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m0.687 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.610 ms - -[0m
+卡通
+SELECT picturename,pictureid FROM picture WHERE label like "%卡通%" or namelabel  like "%卡通%"
+[0mGET /AIphoto/sepPhoto?label=%E5%8D%A1%E9%80%9A [36m304 [0m3.590 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.356 ms - -[0m
+[0mGET /images/intelligent.png [36m304 [0m0.227 ms - -[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m0.223 ms - -[0m
+[0mGET /photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg [36m304 [0m0.223 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.188 ms - -[0m
+[0mGET /AIphoto [36m304 [0m3.971 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.366 ms - -[0m
+[0mGET /images/intelligent.png [36m304 [0m0.618 ms - -[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m0.622 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.210 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.214 ms - -[0m
+[0mGET /images/intelligent.png [36m304 [0m0.934 ms - -[0m
+[0mGET /AIname [32m200 [0m5.488 ms - 7737[0m
+[0mGET /images/logo2.png [36m304 [0m0.641 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.646 ms - -[0m
+[0mGET /images/intelligent.png [36m304 [0m0.469 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.379 ms - -[0m
+[0mGET /photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg [36m304 [0m0.216 ms - -[0m
+[0mGET /photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png [36m304 [0m0.346 ms - -[0m
+people1
+SELECT picturename,pictureid FROM picture WHERE label like "%people1%" or namelabel  like "%people1%"
+[0mGET /AIphoto/sepPhoto?label=people1 [36m304 [0m3.293 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.355 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.349 ms - -[0m
+[0mGET /photos/OQHypJQ3AJYQt4nQfFw3wG1T.jpg [36m304 [0m0.663 ms - -[0m
+[0mGET /images/intelligent.png [36m304 [0m0.664 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.590 ms - -[0m
+{ 'timg.jpg': 'photos/XilbZx-aPzMwNMSEME5K8KNb.jpg',
+  'timg2.jpg': 'photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg',
+  'clearlove.jpeg': 'photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg',
+  'c2.jpg': 'photos/OQHypJQ3AJYQt4nQfFw3wG1T.jpg',
+  'player.png': 'photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png',
+  'face.jpg': 'photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg',
+  'DSCF1420.jpg': 'photos/cNh7NQbmb-PU-hqB8z4-6B5A.jpg' }
+[0mGET / [36m304 [0m2.843 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.478 ms - -[0m
+[0mGET /images/local.png [36m304 [0m0.269 ms - -[0m
+[0mGET /images/button1.png [36m304 [0m0.240 ms - -[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m0.557 ms - -[0m
+[0mGET /photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg [36m304 [0m0.253 ms - -[0m
+[0mGET /photos/OQHypJQ3AJYQt4nQfFw3wG1T.jpg [36m304 [0m0.603 ms - -[0m
+[0mGET /photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg [36m304 [0m0.619 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.351 ms - -[0m
+[0mGET /photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png [36m304 [0m0.221 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.319 ms - -[0m
+[0mGET /photos/cNh7NQbmb-PU-hqB8z4-6B5A.jpg [32m200 [0m1.225 ms - 4209278[0m
+[0mGET /AIphoto [36m304 [0m3.393 ms - -[0m
+[0mGET /images/intelligent.png [32m200 [0m0.676 ms - 8962[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.483 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.310 ms - -[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m0.485 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.461 ms - -[0m
+[0mGET /AIname [32m200 [0m3.213 ms - 7737[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.407 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.457 ms - -[0m
+[0mGET /images/intelligent.png [36m304 [0m0.233 ms - -[0m
+[0mGET /photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png [36m304 [0m0.313 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.266 ms - -[0m
+[0mGET /photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg [36m304 [0m0.465 ms - -[0m
+[0mGET /AIphoto [36m304 [0m3.302 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.355 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.342 ms - -[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m0.455 ms - -[0m
+[0mGET /images/intelligent.png [36m304 [0m0.244 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.339 ms - -[0m
+{ 'timg.jpg': 'photos/XilbZx-aPzMwNMSEME5K8KNb.jpg',
+  'timg2.jpg': 'photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg',
+  'clearlove.jpeg': 'photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg',
+  'c2.jpg': 'photos/OQHypJQ3AJYQt4nQfFw3wG1T.jpg',
+  'player.png': 'photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png',
+  'face.jpg': 'photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg',
+  'DSCF1420.jpg': 'photos/cNh7NQbmb-PU-hqB8z4-6B5A.jpg' }
+[0mGET / [32m200 [0m3.914 ms - 12545[0m
+exec error: Error: Command failed: python ~/album/image-python-sdk-v2.0/sample.py "DSCF1420.jpg"  ~/album/public/photos/cNh7NQbmb-PU-hqB8z4-6B5A.jpg >> log.txt
+Traceback (most recent call last):
+  File "/home/ubuntu/album/image-python-sdk-v2.0/sample.py", line 43, in <module>
+    if a['result_list'][0]['data']['porn_score']>0.8:
+KeyError: 'result_list'
+
+[0mGET /images/mainBackground.jpg [36m304 [0m0.383 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.287 ms - -[0m
+[0mGET /images/button1.png [36m304 [0m2.948 ms - -[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m0.211 ms - -[0m
+[0mGET /images/local.png [36m304 [0m0.189 ms - -[0m
+[0mGET /photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg [36m304 [0m0.247 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.264 ms - -[0m
+[0mGET /photos/OQHypJQ3AJYQt4nQfFw3wG1T.jpg [36m304 [0m0.243 ms - -[0m
+[0mGET /photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png [36m304 [0m2.602 ms - -[0m
+[0mGET /photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg [36m304 [0m0.322 ms - -[0m
+[0mGET /photos/cNh7NQbmb-PU-hqB8z4-6B5A.jpg [36m304 [0m0.374 ms - -[0m
+[0mGET /photos/cNh7NQbmb-PU-hqB8z4-6B5A.jpg [32m200 [0m0.665 ms - 4209278[0m
+{ 'timg.jpg': 'photos/XilbZx-aPzMwNMSEME5K8KNb.jpg',
+  'timg2.jpg': 'photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg',
+  'clearlove.jpeg': 'photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg',
+  'c2.jpg': 'photos/OQHypJQ3AJYQt4nQfFw3wG1T.jpg',
+  'player.png': 'photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png',
+  'face.jpg': 'photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg',
+  'DSCF1420.jpg': 'photos/cNh7NQbmb-PU-hqB8z4-6B5A.jpg' }
+[0mGET / [36m304 [0m2.700 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.425 ms - -[0m
+[0mGET /photos/OQHypJQ3AJYQt4nQfFw3wG1T.jpg [36m304 [0m0.709 ms - -[0m
+[0mGET /images/local.png [36m304 [0m0.620 ms - -[0m
+[0mGET /images/button1.png [36m304 [0m0.672 ms - -[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m0.641 ms - -[0m
+[0mGET /photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg [36m304 [0m0.360 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.260 ms - -[0m
+[0mGET /photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg [36m304 [0m0.440 ms - -[0m
+[0mGET /photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png [36m304 [0m0.234 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.415 ms - -[0m
+[0mGET /photos/cNh7NQbmb-PU-hqB8z4-6B5A.jpg [36m304 [0m0.329 ms - -[0m
+[0mGET /AIphoto [36m304 [0m3.053 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.346 ms - -[0m
+[0mGET /images/intelligent.png [36m304 [0m0.197 ms - -[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m1.755 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.961 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.943 ms - -[0m
+卡通
+SELECT picturename,pictureid FROM picture WHERE label like "%卡通%" or namelabel  like "%卡通%"
+[0mGET /AIphoto/sepPhoto?label=%E5%8D%A1%E9%80%9A [36m304 [0m2.518 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.357 ms - -[0m
+[0mGET /images/intelligent.png [36m304 [0m0.227 ms - -[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m0.272 ms - -[0m
+[0mGET /photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg [36m304 [0m0.270 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.204 ms - -[0m
+[0mGET /AIphoto [36m304 [0m2.783 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.665 ms - -[0m
+[0mGET /images/intelligent.png [36m304 [0m0.561 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.552 ms - -[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m0.516 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.257 ms - -[0m
+男孩
+SELECT picturename,pictureid FROM picture WHERE label like "%男孩%" or namelabel  like "%男孩%"
+[0mGET /AIphoto/sepPhoto?label=%E7%94%B7%E5%AD%A9 [32m200 [0m1.909 ms - 7290[0m
+[0mGET /images/logo2.png [36m304 [0m0.427 ms - -[0m
+[0mGET /images/intelligent.png [36m304 [0m0.241 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.246 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.285 ms - -[0m
+[0mGET /photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png [36m304 [0m0.224 ms - -[0m
+[0mGET /AIphoto [36m304 [0m3.217 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.424 ms - -[0m
+[0mGET /images/intelligent.png [36m304 [0m0.268 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.825 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.759 ms - -[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m0.756 ms - -[0m
+[0mGET /AIname [36m304 [0m2.921 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.689 ms - -[0m
+[0mGET /images/intelligent.png [36m304 [0m0.638 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.235 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.354 ms - -[0m
+[0mGET /photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png [36m304 [0m0.215 ms - -[0m
+[0mGET /photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg [36m304 [0m0.341 ms - -[0m
+{ 'timg.jpg': 'photos/XilbZx-aPzMwNMSEME5K8KNb.jpg',
+  'timg2.jpg': 'photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg',
+  'clearlove.jpeg': 'photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg',
+  'c2.jpg': 'photos/OQHypJQ3AJYQt4nQfFw3wG1T.jpg',
+  'player.png': 'photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png',
+  'face.jpg': 'photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg',
+  'DSCF1420.jpg': 'photos/cNh7NQbmb-PU-hqB8z4-6B5A.jpg' }
+[0mGET / [36m304 [0m6.093 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.467 ms - -[0m
+[0mGET /photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png [36m304 [0m0.367 ms - -[0m
+[0mGET /images/local.png [36m304 [0m0.285 ms - -[0m
+[0mGET /images/button1.png [36m304 [0m0.295 ms - -[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m0.208 ms - -[0m
+[0mGET /photos/OQHypJQ3AJYQt4nQfFw3wG1T.jpg [36m304 [0m0.213 ms - -[0m
+[0mGET /photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg [36m304 [0m0.251 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.767 ms - -[0m
+[0mGET /photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg [36m304 [0m0.802 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m2.335 ms - -[0m
+[0mGET /photos/cNh7NQbmb-PU-hqB8z4-6B5A.jpg [36m304 [0m0.245 ms - -[0m
+[0mGET /AIphoto [36m304 [0m2.796 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.463 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.402 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.282 ms - -[0m
+[0mGET /images/intelligent.png [36m304 [0m0.482 ms - -[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m0.436 ms - -[0m
+卡通
+SELECT picturename,pictureid FROM picture WHERE label like "%卡通%" or namelabel  like "%卡通%"
+[0mGET /AIphoto/sepPhoto?label=%E5%8D%A1%E9%80%9A [36m304 [0m2.818 ms - -[0m
+[0mGET /images/intelligent.png [36m304 [0m0.375 ms - -[0m
+[0mGET /photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg [36m304 [0m0.219 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.217 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.236 ms - -[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m0.209 ms - -[0m
+[0mGET /AIname [36m304 [0m3.356 ms - -[0m
+[0mGET /images/intelligent.png [36m304 [0m0.419 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.214 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.308 ms - -[0m
+[0mGET /photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png [36m304 [0m0.273 ms - -[0m
+[0mGET /photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg [36m304 [0m0.347 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.324 ms - -[0m
+people2
+SELECT picturename,pictureid FROM picture WHERE label like "%people2%" or namelabel  like "%people2%"
+[0mGET /AIphoto/sepPhoto?label=people2 [32m200 [0m2.522 ms - 6596[0m
+[0mGET /images/intelligent.png [36m304 [0m0.329 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.261 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.200 ms - -[0m
+[0mGET /photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png [36m304 [0m0.936 ms - -[0m
+[0mGET /AIname [36m304 [0m3.766 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.464 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.222 ms - -[0m
+[0mGET /images/intelligent.png [36m304 [0m0.261 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.233 ms - -[0m
+[0mGET /photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png [36m304 [0m0.315 ms - -[0m
+[0mGET /photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg [36m304 [0m0.275 ms - -[0m
+people1
+SELECT picturename,pictureid FROM picture WHERE label like "%people1%" or namelabel  like "%people1%"
+[0mGET /AIphoto/sepPhoto?label=people1 [36m304 [0m2.159 ms - -[0m
+[0mGET /images/intelligent.png [36m304 [0m0.388 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.368 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.232 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.336 ms - -[0m
+[0mGET /photos/OQHypJQ3AJYQt4nQfFw3wG1T.jpg [36m304 [0m0.247 ms - -[0m
+{ 'timg.jpg': 'photos/XilbZx-aPzMwNMSEME5K8KNb.jpg',
+  'timg2.jpg': 'photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg',
+  'clearlove.jpeg': 'photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg',
+  'c2.jpg': 'photos/OQHypJQ3AJYQt4nQfFw3wG1T.jpg',
+  'player.png': 'photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png',
+  'face.jpg': 'photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg',
+  'DSCF1420.jpg': 'photos/cNh7NQbmb-PU-hqB8z4-6B5A.jpg' }
+[0mGET / [36m304 [0m2.815 ms - -[0m
+[0mGET /images/local.png [36m304 [0m0.404 ms - -[0m
+[0mGET /images/button1.png [36m304 [0m0.219 ms - -[0m
+[0mGET /images/logo2.png [36m304 [0m0.216 ms - -[0m
+[0mGET /photos/VAuYicj9w5SOpQDXUKWn2e0q.jpeg [36m304 [0m0.194 ms - -[0m
+[0mGET /photos/XilbZx-aPzMwNMSEME5K8KNb.jpg [36m304 [0m0.200 ms - -[0m
+[0mGET /photos/D7tsx6Ouc_JAvHj2dSDUEX9U.jpg [36m304 [0m0.168 ms - -[0m
+[0mGET /photos/OQHypJQ3AJYQt4nQfFw3wG1T.jpg [36m304 [0m0.337 ms - -[0m
+[0mGET /photos/5S1t_74R-AOjcFxjtGcJ9Pf7.png [36m304 [0m0.194 ms - -[0m
+[0mGET /photos/7y1Mp6Imt-oNswlxA5GAWUep.jpg [36m304 [0m0.211 ms - -[0m
+[0mGET /images/mainBackground.jpg [36m304 [0m0.446 ms - -[0m
+[0mGET /photos/cNh7NQbmb-PU-hqB8z4-6B5A.jpg [36m304 [0m0.388 ms - -[0m
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Cannot enqueue Handshake after invoking quit.
+    at Protocol._validateEnqueue (/home/ubuntu/album/node_modules/mysql/lib/protocol/Protocol.js:204:16)
+    at Protocol._enqueue (/home/ubuntu/album/node_modules/mysql/lib/protocol/Protocol.js:139:13)
+    at Protocol.handshake (/home/ubuntu/album/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at Connection.connect (/home/ubuntu/album/node_modules/mysql/lib/Connection.js:130:18)
+    at /home/ubuntu/album/routes/fileupload.js:26:24
+    at /home/ubuntu/album/node_modules/multiparty/index.js:139:9
+    at /home/ubuntu/album/node_modules/multiparty/index.js:118:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! album@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the album@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2018-06-19T15_14_56_096Z-debug.log

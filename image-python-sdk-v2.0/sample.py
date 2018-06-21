@@ -3,6 +3,7 @@
 import os
 import sys
 import MySQLdb
+import test
 
 db = MySQLdb.connect("localhost", "root", "123456", "album", charset='utf8' )
 cursor = db.cursor()
@@ -38,17 +39,22 @@ print (client.porn_detect(CIFiles(['/Users/lishijie/Desktop/1.jpg',])))
 '''
 print '智能鉴黄'
 a=client.porn_detect(CIFiles([filepath,]))
+print a
 if a['result_list'][0]['data']['porn_score']>0.8:
+    print 'deleting picture'
     sql = 'delete from picture where picturename="'+filename+'"'
-    os.remove(filepath)
     try:
         # 执行SQL语句
         cursor.execute(sql)
+        print '\tdeleting from database success'
+        os.remove(filepath)
+        print '\tdeleting from fs success'
         # 提交修改xxx
         db.commit()
     except:
         # 发生错误时回滚
         db.rollback()
+        print '\trollback'
     sys.exit(1)
 
 # 图片标签
@@ -58,6 +64,7 @@ if a['result_list'][0]['data']['porn_score']>0.8:
 print '图片标签'
 b = client.tag_detect(CIFile(filepath))
 tag = ''
+print b['tags']
 for c in b['tags']:
     if c['tag_confidence']>50:
         tag += c['tag_name']+','
@@ -68,10 +75,13 @@ try:
    cursor.execute(sql)
    # 提交到数据库执行
    db.commit()
+   print '\tupdate picture.label success'
 except:
    # 发生错误时回滚
    db.rollback()
+   print '\tupdate picture.label error'
 
+test.Face(filepath)
 
 '''
 #OCR-身份证识别

@@ -133,7 +133,7 @@
                       font-family:'楷体', '仿宋';
                       font-size:18px">导航栏</li>
                                             <li><a href="/">本地相册</a></li>
-                                            <li><a class="active" href="/AIphoto">智能相册</a></li>
+                                            <li><a class='active' href="/AIphoto">智能相册</a></li>
                                             <li><a href="/AIname">人物相册</a></li>
                                         </strong>
                                     </ul>
@@ -154,7 +154,9 @@
 
                             <tr height="97%">
                                 <td>
-                                    <%for(var a in lables){ %>
+                                    <%
+                                    for(var a in lables){ 
+                                     %>
                                         <div class="responsive" style="margin:30px">
                                             <div class="img">
                                                 <a target="_blank" href="/AIphoto/sepPhoto?label=<%=a%>">

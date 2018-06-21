@@ -10,7 +10,7 @@ var connection = mysql.createConnection({
 });
 
 router.all('/',function (req, res, next) {
-    connection.query('SELECT namelabel FROM picture',function (err, resuts) {
+    connection.query('SELECT DISTINCT namelabel FROM picture',function (err, resuts) {
         if(err){
             console.log('[SELECT ERROR] - ',err.message);
         }else{
@@ -26,21 +26,26 @@ router.all('/',function (req, res, next) {
             }
             data = {};
             keys = [];
-            for(var a in out[0]){
-                keys.push(out[0][a]);
+            //for(var a in out[0]){
+            //    keys.push(out[0][a]);
+            //}
+            for(var a in out){
+                keys.push(out[a][0]);
             }
             (function iterator(index){
-                console.log(index);
+                //console.log(index);
                 if (index === keys.length) {
-                    console.log(data);
-                    res.render('AIphoto',{'lables':data});
+                    //console.log(data);
+                    res.render('AIphoto2',{'lables':data});
                     return;
                 }
-                connection.query('SELECT picturename,pictureid FROM picture WHERE namelabel like "%'+out[0][index]+'%" limit 1',function (err, result) {
+                //console.log('SELECT picturename,pictureid FROM picture WHERE           namelabel like "%'+out[index][0]+'%" limit 1');
+                connection.query('SELECT picturename,pictureid FROM picture WHERE namelabel like "%'+out[index][0]+'%" limit 1',function (err, result) {
                     if(err){
                         console.log('[SELECT ERROR] - ',err.message);
                     }else{
-                        data[out[0][index]] = [result[0]['picturename'],result[0]['pictureid']];
+                        data[out[index][0]] = [result[0]['picturename'],result[0]['pictureid']];
+                        //console.log(data);
                         iterator(++index);
                     }
                 });
